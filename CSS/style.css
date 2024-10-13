@@ -1,0 +1,711 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+.full_width1 {
+    width: 100%;
+    height: auto;
+    background: none;
+}
+
+.fix_width1 {
+    max-width: 1300px;
+    height: auto;
+    margin: 0 auto;
+    background: none;
+}
+
+.content1 {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_1 {
+    width: 15%;
+    background: white;
+    height: auto;
+}
+
+.logo_image {
+    width: 100%;
+    height: auto;
+}
+
+.box_2 {
+    width: 65%;
+    background: white;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-1 {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-weight: 600;
+}
+
+.row-1a {
+    list-style: none;
+    margin: 6px;
+}
+
+.box_3 {
+    width: 15%;
+    background: white;
+    height: auto;
+    display: flex;
+    margin: 25px;
+}
+
+.buttonclick1 {
+    width: 80%;
+    margin: 8px;
+    border-radius: 30px;
+    background-color: #E50F2D;
+    color: white;
+    font-size: medium;
+    border: none;
+}
+
+.full_width2 {
+    width: 100%;
+    height: auto;
+    background: #D9E7F1;
+}
+
+.fix_width2 {
+    max-width: 1300px;
+    height: auto;
+    margin: 0 auto;
+    background: none;
+}
+
+.content2 {
+    background: none;
+    display: flex;
+}
+
+.box_4 {
+    width: 60%;
+    background: none;
+    padding-top: 50px;
+    margin: 10px;
+    height: auto;
+}
+
+.box_5 {
+    width: 40%;
+    background: none;
+    padding: 10px;
+    margin: 10px;
+    height: 250%;
+}
+
+.doctorimage {
+    width: 100%;
+    height: auto;
+}
+
+.paragraph1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: "Poppins", sans-serif;
+    margin-top: 80px;
+}
+
+.paragraph2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: roboto;
+    color: #E50F2D
+}
+
+.paragraph3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: roboto;
+}
+
+.paragraph4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttonclick2 {
+    width: 25%;
+    margin: 5px;
+    border-radius: 30px;
+    background-color: #E50F2D;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+
+.buttonclick3 {
+    width: 25%;
+    margin: 5px;
+    border-radius: 30px;
+    background-color: #403E3E;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+
+.content3 {
+    background: none;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box_6 {
+    display: flex;
+    width: 85%;
+}
+
+.box_6a {
+    width: 40%;
+    margin: 1px;
+    height: auto;
+    display: flex;
+}
+
+.box_7 {
+    display: flex;
+    width: 85%;
+}
+
+.box_7a {
+    width: 40%;
+    margin: 1px;
+    height: auto;
+    background-color: #E50F2D;
+    padding: 5px;
+}
+
+.paragraph5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 300px;
+    color: white;
+    margin: 5px;
+}
+
+
+.paragraph6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600px;
+    color: white;
+    margin: 5px;
+}
+
+.paragraph7 {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 300px;
+    color: white;
+    margin: 5px;
+}
+
+.buttonclick4 {
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 400px;
+    border-radius: 20px;
+    padding: 7px;
+    border: none;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.box_8 {
+    width: 40%;
+    margin: 1px;
+    height: auto;
+    background-color: black;
+    padding: 5px;
+}
+
+.box_8a1 {
+    width: 100%;
+    height: auto;
+    background-color: none;
+    padding: 15px;
+    display: flex;
+    margin-left: 15px;
+}
+
+.flex_inline1 {
+    color: white;
+    padding-right: 20px;
+}
+
+.flex_inline2 {
+    color: white
+}
+
+.box_8a2 {
+    width: 90%;
+    height: auto;
+    background-color: none;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.box_8a3 {
+    width: 90%;
+    height: auto;
+    background-color: none;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.paragraph8 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.paragraph9 {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.doctorwithstatoscope {
+    width: 100%;
+    height: auto;
+}
+
+.box_9 {
+    width: 40%;
+    background: none;
+    padding: 10px;
+    margin: 10px;
+    height: 250%;
+}
+
+.box_10 {
+    width: 60%;
+    background: none;
+    padding-top: 50px;
+    margin: 10px;
+    height: auto;
+}
+
+.paragraph10 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.paragraph11 {
+    color: #E50F2D;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+
+.paragraph12 {
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 1.1em;
+}
+
+.paragraph13 {
+    size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-top: 25px;
+}
+
+.box_10aa {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 35px;
+    justify-content: end;
+}
+
+.paragraph14 {
+    color: #E50F2D;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 0.2em;
+}
+
+.paragraph15 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 0.2em;
+}
+
+.box_10a2 {
+    height: 50px;
+    width: 50px;
+}
+
+.fa-solid {
+    font-size: 45px;
+}
+
+.box_bb {
+    display: flex;
+    margin-top: 20px;
+}
+
+.box_11 {
+    display: flex;
+}
+
+.box_11b {
+    margin-left: 10px;
+}
+
+.paragraph16 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.paragraph17 {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.specialiseddoctors {
+    width: 100%;
+    height: auto;
+}
+
+.box_13 {
+    width: 25%;
+    margin-top: 10px;
+    margin-right: 5px;
+    height: auto;
+    background-color: #ABB8C3;
+
+}
+
+.box_13aa {
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.box_13bb {
+    width: 80%;
+    margin: 1px;
+    height: auto;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.paragraph18 {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.paragraph19 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.paragraph20 {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.paragraph21 {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.paragraph22 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #E50F2D;
+    line-height: 1.1em;
+    margin: 5px;
+}
+
+.paragraph23 {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.content4 {
+    display: column;
+    margin: 20px;
+}
+
+.box_14 {
+    display: flex;
+    background-color: none;
+}
+
+.box_14aa {
+    background-color: #D0D0D0;
+    height: 70%;
+    margin: 10px;
+}
+
+.box_14a {
+    background-color: white;
+    margin: 10px;
+}
+
+.box_14a2 {
+    margin: 5px;
+    padding-top: 5px;
+    background-color: white;
+}
+
+.subbutton {
+    background-color: #DBD8D8;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400px;
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.box_14b {
+    background-color: white;
+    margin: 10px;
+    width: 40%;
+    height: auto;
+    justify-content: center;
+}
+
+.box_14b1 {
+    background-color: none;
+    padding-left: 40%;
+}
+
+.box_14b2 {
+    margin: 10px;
+}
+
+.paragraph24 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.fa-desktop {
+    color: #E50F2D;
+}
+
+.fa-briefcase-medical {
+    color: #E50F2D;
+}
+
+.fa-stethoscope {
+    color: #E50F2D;
+}
+
+.full_width3 {
+    width: 100%;
+    height: auto;
+    background: #E40C2C;
+}
+
+.fix_width3 {
+    max-width: 1300px;
+    height: auto;
+    margin: 0 auto;
+    background: none;
+}
+
+.content5 {
+    background: none;
+    display: flex;
+    justify-content: center;
+}
+
+.box_15 {
+    width: 20%;
+    background-color: none;
+    text-align: center;
+    margin: 8px;
+}
+
+.box_15a {
+    width: 95%;
+    background-color: none;
+    margin: 5px;
+}
+
+.box_15b {
+    width: 90%;
+    height: auto;
+    margin-top: -60px;
+    margin-left: 10px;
+}
+
+.box_15c {
+    width: 90%;
+    margin: 10px;
+}
+
+.box_15d {
+    width: 90%;
+    margin: 10px;
+}
+
+.box_15e {
+    width: 90%;
+    margin: 10px;
+}
+
+.experiancedoctors {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.paragraph25 {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.paragraph26 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.paragraph27 {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.fa-quote-left {
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+.box_16 {
+    width: 60%;
+    margin: 25px;
+}
+
+.box_17 {
+    width: 40%;
+    background: none;
+    padding: 10px;
+}
+
+.wheelchairimage {
+    width: 60%;
+    height: 100%;
+}
+
+.clicke-mail {
+    background-color: #B2B0B0;
+    width: 65%;
+    margin: 5px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+
+.clicksubscribe {
+    width: 25%;
+    margin: 5px;
+    border-radius: 30px;
+    background-color: #E50F2D;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+
+.paragraph28 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+.paragraph29 {
+    margin-left: 70px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+.box_18b {
+    display: flex;
+    text-align: center;
+}
+
+.fa-angle-right {
+    font-size: 20px;
+    color: #E50F2D;
+}
+
+.fa-mobile-screen-button {
+    font-size: 20px;
+    color: #E50F2D;
+}
+
+.fa-envelope-open-text {
+    font-size: 20px;
+    color: #E50F2D;
+}
+
+.box_18 {
+    margin-top: 20px;
+    background-color: white;
+    width: 18%;
+}
+
+.box_18b1 {
+    margin-top: 5px;
+    width: 30px;
+}
